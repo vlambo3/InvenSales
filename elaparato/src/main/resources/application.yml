@@ -1,0 +1,39 @@
+server:
+  port: 8082
+  servlet:
+    context-path: /elaparato/
+spring:
+  application:
+    name: el-aparato
+  datasource:
+    driverClassName: org.h2.Driver
+    url: jdbc:h2:mem:elaparato
+    username: root
+  h2:
+    console:
+      enabled: true
+    #http://localhost:8080/h2-console
+  jpa:
+    defer-datasource-initialization: true
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+#  sql:
+#    init:
+#      data-locations: classpath:data.sql
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: http://localhost:8080/realms/elaparato
+logging:
+  level:
+    org:
+      springframework:
+        security: DEBUG
+dh:
+  keycloak:
+    serverUrl: http://localhost:8080
+    realm: elaparato
+    clientId: users-client
+    clientSecret: pDlS4E72xSgffEALb7ZBgMMESdG5cR6g
