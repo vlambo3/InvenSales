@@ -51,28 +51,28 @@ You will need to create some users to begin testing and assign the roles at the 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 I recommend accessing your browser in incognito mode whenever necessary and testing the application from any route by always starting from your apigatewayservice. When making a request, you should be automatically redirected to the Keycloak login screen, as shown in the following image:
-![image](https://github.com/vlambo3/InvenSales/images/LoginKeycloak.png)
+![image](https://raw.githubusercontent.com/vlambo3/InvenSales/main/images/LoginKeycloak.png)
 
 If you want to access and query the preloaded products using an SQL file, you must do so with a user that you have created and assigned the admin or seller role at the realm level and you will see the following image:
-![image](https://github.com/vlambo3/InvenSales/images/Productos.png)
+![image](https://raw.githubusercontent.com/vlambo3/InvenSales/main/images/Productos.png)
 
 If I wanted to access and query the pre-loaded sales via an SQL file, I would need to do it with a user that I have created and assigned the role at the realm level, either as an admin or repository, and I would see the following image:
-![image](https://github.com/vlambo3/InvenSales/images/Ventas.png)
+![image](https://raw.githubusercontent.com/vlambo3/InvenSales/main/images/Ventas.png)
 
 If I wished to access and query the users stored in Keycloak's relational database, I would need to do so with a user that I have created and assigned the realm-level admin role to, and I would see the following image:
-![image](https://github.com/vlambo3/InvenSales/images/Usuarios.png)
+![image](https://raw.githubusercontent.com/vlambo3/InvenSales/main/images/Usuarios.png)
 
 You can also log out. Keycloak allows you to log out from the main URL of your API gateway using the path localhost:9090/logout, as shown in the following image:
-![image](https://github.com/vlambo3/InvenSales/images/Logout1.png)
+![image](https://raw.githubusercontent.com/vlambo3/InvenSales/main/images/Logout1.png)
 
 Upon logging out, you will be offered the option to be redirected to the login page:
-![image](https://github.com/vlambo3/InvenSales/images/Logout2.png)
+![image](https://raw.githubusercontent.com/vlambo3/InvenSales/main/images/Logout2.png)
 
 If you want to access an endpoint again, note that the logout works correctly:
-![image](https://github.com/vlambo3/InvenSales/images/Logout3.png)
+![image](https://raw.githubusercontent.com/vlambo3/InvenSales/main/images/Logout3.png)
 
 It can even allow users to register, and even sign up using a social login, as shown in the following image:
-![image](https://github.com/vlambo3/InvenSales/images/LoginSocial.png)
+![image](https://raw.githubusercontent.com/vlambo3/InvenSales/main/images/LoginSocial.png)
 
 
 ## Contacto
